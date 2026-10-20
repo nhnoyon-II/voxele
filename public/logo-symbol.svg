@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Voxelé — VÉ symbol">
+  <defs>
+    <linearGradient id="g" x1="20" y1="10" x2="180" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3E6C8"/>
+      <stop offset=".5" stop-color="#D9BF8C"/>
+      <stop offset="1" stop-color="#B8935A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="#F5E8E4"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <text x="100" y="124" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="84" font-weight="500" letter-spacing="2" fill="#3B2A28">V<tspan fill="url(#g)" font-style="italic">É</tspan></text>
+</svg>
