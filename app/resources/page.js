@@ -5,7 +5,7 @@ import CtaBand from "@/components/CtaBand";
 import Newsletter from "@/components/Newsletter";
 import { Sparkle } from "@/components/Icons";
 import { freebies } from "@/lib/content";
-
+import Books from "@/components/Books";
 export const metadata = {
   title: "Free Resources",
   description:
@@ -22,7 +22,7 @@ export default function ResourcesPage() {
         accent="beautifully shared."
         lead="Free tools to help you pause, breathe and reconnect with your inner voice between sessions."
       />
-
+   <Books />
       <Resources />
 
       <section className="section">
